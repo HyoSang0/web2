@@ -13,3 +13,23 @@
 
 ## Node.js 개발을 도와주는 도구 Express
 
+___  
+
+```js
+//메인 페이지를 만드는 방법
+app.get("/", function(req, res){
+    res.send('Hello World');
+})
+
+```
+
+## npm supervisor
+- 설치 커맨드 : npm install supervisor
+- 작동 : supervisor app.js
+- app.js를 저장할 때마다 서버를 새로 연다.
+
+## npmjs.com
+- 서버 개발할 때 필요한 여러가지 도구들이 npm에 있음
+
+## router
+- 여러 주소들을 app.js에 다 넣으면 굉장히 커지기 때문에 이를 router에서 분리하여 관리한다.
